@@ -1,14 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gsconfig_edm',
+    name='gsconfig_edm', # @todo
     version='0.1.0',
-    description='A Geoserver base configuration package ',
+    description='A Geoserver base configuration package',
     url='https://github.com/ElisabethDemaio/gsconfig.git',
-    author='Liz',
-    author_email='',
-    license='',
+    author='INKODE',
+    author_email='info@inkode.it',
+    license='GPL3',
     packages=find_packages(),
-    install_requires=[
-                      ],
+    #install_requires=[],
 )
